@@ -1,0 +1,8 @@
+<map id="CSINS" name="CSINS">
+<area shape="rect" id="node2" href="$class_c_r_avar.html" title="CRAvar" alt="" coords="5,265,75,291"/>
+<area shape="rect" id="node3" href="$class_c_vect3.html" title="Three Dimension Vector representation and operations. " alt="" coords="211,5,277,32"/>
+<area shape="rect" id="node6" href="$class_c_earth.html" title="Provide variables about Earth. " alt="" coords="213,265,275,291"/>
+<area shape="rect" id="node7" href="$class_c_i_m_u.html" title="Inertial Measurement Unit Observation operations. " alt="" coords="299,265,357,291"/>
+<area shape="rect" id="node4" href="$class_c_quat.html" title="Quaternion representation and operations. " alt="" coords="381,265,441,291"/>
+<area shape="rect" id="node5" href="$class_c_mat3.html" title="CMat3" alt="" coords="465,265,527,291"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="CMahony" name="CMahony">
+<area shape="rect" id="node2" href="$class_c_vect3.html" title="Three Dimension Vector representation and operations. " alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node3" href="$class_c_quat.html" title="Quaternion representation and operations. " alt="" coords="97,5,157,32"/>
+<area shape="rect" id="node4" href="$class_c_mat3.html" title="CMat3" alt="" coords="181,5,243,32"/>
+</map>
