@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ssensor',['SSensor',['../struct_s_sensor.html',1,'']]]
+  ['ssensor',['SSensor',['../a00028.html',1,'']]]
 ];
