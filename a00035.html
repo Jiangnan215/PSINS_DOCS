@@ -182,12 +182,14 @@ Macros</h2></td></tr>
 <tr class="memitem:a12c2040f25d8e3a7b9e1c2024c618cb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#a12c2040f25d8e3a7b9e1c2024c618cb6">INF</a>&#160;&#160;&#160;3.402823466e+30F</td></tr>
 <tr class="separator:a12c2040f25d8e3a7b9e1c2024c618cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">constant define  <a href="#aa8cecfc5c5c054d2875c03e77b7be15d">More...</a><br /></td></tr>
 <tr class="separator:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa93f0eb578d23995850d61f7d61c55c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:aa93f0eb578d23995850d61f7d61c55c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;((void *)0)</td></tr>
 <tr class="separator:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d2935337b286ae3009bf0584bf770cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#a7d2935337b286ae3009bf0584bf770cd">pmax</a>(x,  y)&#160;&#160;&#160;( (x)&gt;=(y)?(x):(y) )</td></tr>
+<tr class="memdesc:a7d2935337b286ae3009bf0584bf770cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">选出来较大值和较小值  <a href="#a7d2935337b286ae3009bf0584bf770cd">More...</a><br /></td></tr>
 <tr class="separator:a7d2935337b286ae3009bf0584bf770cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94378bdae04de56dfc6ac107362df34a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#a94378bdae04de56dfc6ac107362df34a">pmin</a>(x,  y)&#160;&#160;&#160;( (x)&lt;=(y)?(x):(y) )</td></tr>
 <tr class="separator:a94378bdae04de56dfc6ac107362df34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,8 +202,10 @@ Macros</h2></td></tr>
 <tr class="memitem:ac9ffea10f7fe227bdd195c67e3c2dbdb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#ac9ffea10f7fe227bdd195c67e3c2dbdb">acosEx</a>(x)&#160;&#160;&#160;acos(<a class="el" href="a00035.html#a32647dba58b006dd069ea39efba7016d">range</a>(x, -1.0, 1.0))</td></tr>
 <tr class="separator:ac9ffea10f7fe227bdd195c67e3c2dbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a363494204a4c7b21328d1d2ebd29abac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#a363494204a4c7b21328d1d2ebd29abac">CC180toC360</a>(yaw)&#160;&#160;&#160;( (yaw)&gt;0.0 ? (<a class="el" href="a00035.html#a5b9e606cd9d3b859cbeb2d85108a1173">_2PI</a>-(yaw)) : -(yaw) )</td></tr>
+<tr class="memdesc:a363494204a4c7b21328d1d2ebd29abac"><td class="mdescLeft">&#160;</td><td class="mdescRight">counter-clockwise +-180deg -&gt; clockwise 0~360deg for yaw  <a href="#a363494204a4c7b21328d1d2ebd29abac">More...</a><br /></td></tr>
 <tr class="separator:a363494204a4c7b21328d1d2ebd29abac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9616bf332cb8489bae7d2caf895d89d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#a9616bf332cb8489bae7d2caf895d89d5">C360toCC180</a>(yaw)&#160;&#160;&#160;( (yaw)&gt;=<a class="el" href="a00035.html#a598a3330b3c21701223ee0ca14316eca">PI</a> ? (<a class="el" href="a00035.html#a5b9e606cd9d3b859cbeb2d85108a1173">_2PI</a>-(yaw)) : -(yaw) )</td></tr>
+<tr class="memdesc:a9616bf332cb8489bae7d2caf895d89d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">clockwise 0~360deg -&gt; counter-clockwise +-180deg for yaw  <a href="#a9616bf332cb8489bae7d2caf895d89d5">More...</a><br /></td></tr>
 <tr class="separator:a9616bf332cb8489bae7d2caf895d89d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86d2279fe547aa63b3e0617f093b981e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00035.html#a86d2279fe547aa63b3e0617f093b981e">LLH</a>(latitude,  longitude,  height)&#160;&#160;&#160;<a class="el" href="a00027.html">CVect3</a>((latitude)*<a class="el" href="a00035.html#a598a3330b3c21701223ee0ca14316eca">PI</a>/180,(longitude)*<a class="el" href="a00035.html#a598a3330b3c21701223ee0ca14316eca">PI</a>/180,height)</td></tr>
 <tr class="separator:a86d2279fe547aa63b3e0617f093b981e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -470,6 +474,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>clockwise 0~360deg -&gt; counter-clockwise +-180deg for yaw </p>
+
 </div>
 </div>
 <a class="anchor" id="a363494204a4c7b21328d1d2ebd29abac"></a>
@@ -485,6 +491,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>counter-clockwise +-180deg -&gt; clockwise 0~360deg for yaw </p>
 
 </div>
 </div>
@@ -702,6 +710,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>选出来较大值和较小值 </p>
+
 </div>
 </div>
 <a class="anchor" id="a94378bdae04de56dfc6ac107362df34a"></a>
@@ -813,6 +823,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>constant define </p>
 
 </div>
 </div>
